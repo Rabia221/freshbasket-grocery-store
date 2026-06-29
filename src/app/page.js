@@ -1,8 +1,10 @@
+import AnnouncementBar from "@/components/layout/AnnouncementBar";
 import Navbar from "@/components/layout/Navbar";
 
 export default function Home() {
   return (
     <>
+      <AnnouncementBar />
       <Navbar />
 
       <main className="min-h-screen">
